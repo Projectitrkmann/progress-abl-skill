@@ -1,0 +1,22 @@
+{
+  "name": "progress-abl-skill",
+  "version": "1.0.0",
+  "description": "Expert skill for developing in Progress OpenEdge ABL (Advanced Business Language) / Progress 4GL",
+  "author": {
+    "name": "Marcelo Rossini",
+    "url": "https://github.com/marcelorossini"
+  },
+  "license": "MIT",
+  "keywords": [
+    "progress",
+    "openedge",
+    "abl",
+    "4gl",
+    "erp",
+    "database",
+    "procedure",
+    "oop"
+  ],
+  "repository": "https://github.com/marcelorossini/progress-abl-skill",
+  "homepage": "https://github.com/marcelorossini/progress-abl-skill"
+}

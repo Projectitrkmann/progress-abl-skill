@@ -1,0 +1,35 @@
+{
+  "name": "progress-abl-skill",
+  "description": "Expert skill for Progress OpenEdge ABL development",
+  "owner": {
+    "name": "Marcelo Rossini",
+    "url": "https://github.com/marcelorossini"
+  },
+  "plugins": [
+    {
+      "name": "progress-abl-skill",
+      "source": "./",
+      "description": "Expert reference for developing in Progress OpenEdge ABL / Progress 4GL. Covers procedures, classes, queries, temp-tables, datasets, handles, OOP, error handling, transactions, string/date functions, and more — backed by 40+ authoritative reference files.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Marcelo Rossini",
+        "url": "https://github.com/marcelorossini"
+      },
+      "category": "development",
+      "keywords": [
+        "progress",
+        "openedge",
+        "abl",
+        "4gl",
+        "erp",
+        "database",
+        "procedure",
+        "oop",
+        "skills"
+      ],
+      "homepage": "https://github.com/marcelorossini/progress-abl-skill",
+      "repository": "https://github.com/marcelorossini/progress-abl-skill",
+      "license": "MIT"
+    }
+  ]
+}
