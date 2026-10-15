@@ -6,7 +6,7 @@
 
 ## What is this?
 
-This repository contains a Claude Code skill that turns Claude into an expert Progress OpenEdge ABL developer. It includes 40+ authoritative reference files covering the full ABL language, enabling Claude to write, review, debug, and refactor ABL code with accurate syntax.
+This repository contains a Claude Code skill that turns Claude into an expert Progress OpenEdge ABL developer. It includes 40+ authoritative reference files covering the full ABL language, so Claude can confirm exact syntax, options, and return types instead of guessing.
 
 ### What the skill covers
 
@@ -44,21 +44,23 @@ claude skills install ./dist/progress-abl.skill
 
 ## Usage
 
-Once installed, trigger the skill by working with ABL code:
+Once installed, the skill triggers when exact ABL syntax needs to be confirmed:
 
 ```
-Write a procedure that queries all active customers and processes orders
-```
-
-```
-Review this ABL class and fix the error handling
+What are the options of the BUFFER-COPY method?
 ```
 
 ```
-How do I define a ProDataSet with before-table tracking?
+Is "label" a reserved keyword in ABL?
 ```
 
-The skill automatically consults the reference files before writing or correcting any ABL code.
+```
+What's the difference between the SUBSTRING function and the SUBSTRING statement?
+```
+
+The skill is a syntax reference: it greps the matching reference file for the exact entry instead of
+relying on memory. It deliberately carries no coding conventions, so it can sit alongside
+project- or ERP-specific guidance without conflicting with it.
 
 ---
 
